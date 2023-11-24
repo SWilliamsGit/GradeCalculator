@@ -21,8 +21,8 @@ class Course {
 
         /**
         Calculate Students final grade
-        @pre N/A
-        @post calculates average grade */
+        Pre: N/A
+        Post: calculates average grade */
         // Virtual Function
         virtual void CalcFinalGrade();
 };
