@@ -27,8 +27,8 @@ class Student{
         int GetQuizGrade();
 
         /* Obtain letter grade
-        @pre score/number is provided
-        @post returns the letter grade associated to the score/number */
+        Pre: score/number is provided
+        Post: returns the letter grade associated to the score/number */
         string GetLetterGrade(int grade);
 };
 
